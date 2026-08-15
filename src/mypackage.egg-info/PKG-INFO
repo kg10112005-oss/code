@@ -1,0 +1,48 @@
+Metadata-Version: 2.4
+Name: mypackage
+Version: 0.1.0
+Summary: A custom Python package with reusable utility functions.
+Author: Khushi
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# MyPackage
+
+A custom, installable Python package.
+
+## Installation
+
+### 1. Local Installation (Development / Direct)
+Open your terminal in this directory and run:
+```bash
+pip install .
+```
+
+Or for editable mode (changes to code apply immediately without re-installing):
+```bash
+pip install -e .
+```
+
+### 2. Install directly from GitHub
+Once pushed to GitHub, anyone can install it on their computer using:
+```bash
+pip install git+https://github.com/your-username/mypackage.git
+```
+
+## Usage
+
+### Import in Python
+```python
+import mypackage
+
+# Greet user
+print(mypackage.greet("Alice"))
+
+# Add numbers
+print(mypackage.add_numbers(10, 20))
+```
+
+### Command Line Utility
+```bash
+mypackage-cli
+```

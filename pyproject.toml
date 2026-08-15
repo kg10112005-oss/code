@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mypackage"
+version = "0.1.0"
+description = "A custom Python package with reusable utility functions."
+readme = "README.md"
+authors = [
+    { name = "Khushi" }
+]
+requires-python = ">=3.8"
+dependencies = []
+
+[project.scripts]
+mypackage-cli = "mypackage.core:cli_entrypoint"

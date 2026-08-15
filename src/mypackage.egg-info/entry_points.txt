@@ -1,0 +1,2 @@
+[console_scripts]
+mypackage-cli = mypackage.core:cli_entrypoint

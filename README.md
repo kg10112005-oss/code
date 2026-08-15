@@ -1,0 +1,48 @@
+# MyPackage
+
+A custom, installable Python package containing ML & Deep Learning models.
+
+## Installation
+
+### 1. Local Installation
+Open your terminal in this directory and run:
+```bash
+pip install -e .
+```
+
+### 2. Direct Installation from GitHub
+```bash
+pip install git+https://github.com/your-username/mypackage.git
+```
+
+## Available Programs & Functions
+
+- `mypackage.program1()`: Skip-Gram Word Embeddings with t-SNE visualization (PyTorch & scikit-learn).
+- `mypackage.program2()`: ANN Classifier on Iris Dataset (TensorFlow/Keras).
+- `mypackage.program3()`: CNN Image Classification on CIFAR-10 (TensorFlow/Keras).
+- `mypackage.program4()`: Image Autoencoder on MNIST (TensorFlow/Keras).
+
+## Usage Example in Python
+
+```python
+import mypackage
+
+# Run Skip-Gram Word Embeddings
+mypackage.program1()
+
+# Run Iris Classifier
+mypackage.program2()
+
+# Run CIFAR-10 CNN
+mypackage.program3()
+
+# Run MNIST Autoencoder
+mypackage.program4()
+```
+
+## CLI Usage
+
+You can also run the command-line interface directly from your terminal:
+```bash
+mypackage-cli
+```
